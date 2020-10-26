@@ -14,54 +14,9 @@
 </head>
 
 <body>
-    <div class="LOGO">
-        <div class="logo">
-            <a href="trangchu.html"><img src="http://cse.tlu.edu.vn/cse/assets/images/logo.jpg" alt=""></a>
-            <!-- <img src="http://cse.tlu.edu.vn/cse/assets/images/logo.jpg" alt=""> -->
-        </div>
-        <div class="search">
-            <input type="text" name="" id="">
-            <input type="button" value="Search">
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <i class="fas fa-home"></i>
-                </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Giới thiệu<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Tin tức và thông báo <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Tuyển sinh<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Đào tạo<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Nghiên cứu<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Sinh viên<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Liên hệ<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="dangnhap.html">Đăng nhập</a>
-                        <a class="dropdown-item" href="dangki.html">Đăng kí</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+   <?php
+   include("header.php");
+   ?>
     <div class="page-wrapper">
         <div class="post-silder">
             <h1 class="slider-title">trending</h1>
