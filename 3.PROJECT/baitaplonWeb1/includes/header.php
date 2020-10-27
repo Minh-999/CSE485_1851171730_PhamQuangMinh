@@ -8,7 +8,6 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   </head>
   <body>
   <div class="LOGO">
@@ -52,8 +51,8 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="dangnhap.html">Đăng nhập</a>
-                        <a class="dropdown-item" href="dangki.html">Đăng kí</a>
+                        <a class="dropdown-item" href="dangnhap.php">Đăng nhập</a>
+                        <a class="dropdown-item" href="dangki.php">Đăng kí</a>
                     </div>
                 </li>
             </ul>

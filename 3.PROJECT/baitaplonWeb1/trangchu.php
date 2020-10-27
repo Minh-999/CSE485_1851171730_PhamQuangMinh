@@ -15,11 +15,11 @@
 
 <body>
    <?php
-   include("header.php");
+   include("includes/header.php");
    ?>
     <div class="page-wrapper">
         <div class="post-silder">
-            <h1 class="slider-title">trending</h1>
+            <h1 class="slider-title">Trending</h1>
             <div class="post-wrapper">
                 <div class="post">1</div>
                 <div class="post">2</div>
@@ -122,9 +122,9 @@
             </div>
         </div>
     </div>
-    <?php
+   <?php
     include("includes/footer.php");
-    ?>
+   ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

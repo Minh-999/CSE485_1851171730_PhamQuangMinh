@@ -12,16 +12,14 @@
 </head>
 
 <body>
-<?php
-include("includes/header.php");
-?>
+
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="trangchu.php">Home</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">X <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -57,8 +55,8 @@ include("includes/header.php");
         </div>
     </div>
     <?php
-include("includes/footer.php");
-?>
+   include("includes/footer.php");
+   ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
