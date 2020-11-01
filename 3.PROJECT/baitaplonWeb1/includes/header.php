@@ -20,44 +20,42 @@
             <i class="fas fa-search"></i>
         </div>
     </div>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <i class="fas fa-home"></i>
-                </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Giới thiệu<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Tin tức và thông báo <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="tuyensinh.php">Tuyển sinh<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="daotao.php">Đào tạo<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Nghiên cứu<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Sinh viên<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Liên hệ<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+  <a class="navbar-brand" href="trangchu.php">Trang chủ</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Tin tức và thông báo</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Tuyển sinh</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="daotao.php">Đào tạo</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Sinh viên</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Liên hệ</a>
+      </li>
+     
+      <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tài khoản</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="dangnhap.php">Đăng nhập</a>
                         <a class="dropdown-item" href="dangki.php">Đăng kí</a>
                     </div>
                 </li>
-            </ul>
-        </div>
-    </nav>
+    </ul>
+  </div>
+</nav>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
