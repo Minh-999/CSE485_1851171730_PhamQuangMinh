@@ -18,6 +18,49 @@
    <?php
    include("includes/header.php");
    ?>
+  
+    </div>
+    <div class="container" >
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+            <li data-target="#demo" data-slide-to="5"></li>
+            
+        </ol>
+        <div class="carousel-inner" role="listbox" width="1050px">
+            <div class="carousel-item active">
+                <img src="img/slide/banner.jpg" alt="First slide" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide/bia7-1-.jpg" alt="Second slide" class="d-block w-100">
+            </div>         
+            <div class="carousel-item">
+                <img src="img/slide/hoi-thao.jpg" alt="Third-slide" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide/k54-tot-nghiep.jpg" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide/rivf-gala.jpg" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide/sanh-t54.jpg" alt="" class="d-block w-100">
+            </div>         
+        </div>
+        <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    
+    </div>
     <div class="page-wrapper">
         <div class="post-silder">
             <h1 class="slider-title">Trending</h1>
