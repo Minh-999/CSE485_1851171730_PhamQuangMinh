@@ -1,0 +1,51 @@
+
+.LOGO {
+    display: flex;
+}
+
+
+/* .thongtin {
+    width: 33%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450%;
+    float: left;
+    border-radius: 10px;
+    align-items: center;
+} */
+
+
+/* .thongtin .anh1 img {
+    margin: auto;
+    max-width: 150px;
+} */
+
+.post-slider {
+    border: 1px solid red;
+}
+
+.post-slider .post-wrapper {
+    width: 84%;
+    height: 350px;
+    margin: 0% auto;
+    border: 1px dashed red;
+}
+
+.post-slider .post-wrapper .post {
+    display: inline-block;
+    background: royalblue;
+}
+
+li {
+    list-style: none;
+}
+.anh1{
+    border: 4px solid #339;
+}
+footer{
+    padding: 60px;
+    margin-bottom:0px;
+}
