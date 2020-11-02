@@ -4,28 +4,28 @@
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
   </head>
   <body>
       
-      <footer  >
-      <div class="container" >
-      <div class="container" style="background-color:blue" >
-      <div class="row" style="padding:60px">
-      <img src="img/img-01.png" alt="" width="200px" >
-      <p style="color:white">© 2017 Khoa Công nghệ thông tin - Đại học Thủy lợi <br>Địa chỉ: nhà C1, Đại học Thủy lợi, 175 Tây Sơn, Đống Đa, Hà Nội. Điện thoại: (+84)-024 3 5632211. Email: vpkcntt@tlu.edu.vn</p>
-      </div>
-      <div class="row">
-        <div class="col-md-1"><h1><a href="https://www.facebook.com/cse.tlu.edu.vn"><i class="fab fa-facebook-square"></i></a></h1></div>
-        
-      </div>
-     
-      </div>
-      </div>
-      </footer>
+  <div class="footer">
+        <div class="row">
+                <div class="anhdiachi">
+                    <img src="img/map.png" alt="" srcset="">
+                </div>
+                <div class="diachi">
+                    <li>TRƯỜNG ĐẠI HỌC THỦY LỢI</li>
+                    <li>Địa chỉ: 175 Tây Sơn, Đống Đa, Hà Nội</li>
+                    <li>Điện thoại: (024) 38522201 - Fax: (024) 35633351</li>
+                    <li>Email: phonghcth@tlu.edu.vn</li>
+                </div>
+                
+        </div>
+    </div>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

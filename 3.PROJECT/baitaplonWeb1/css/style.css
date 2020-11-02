@@ -23,9 +23,6 @@
     max-width: 150px;
 } */
 
-.post-slider {
-    border: 1px solid red;
-}
 
 .post-slider .post-wrapper {
     width: 84%;
@@ -42,10 +39,23 @@
 li {
     list-style: none;
 }
-.anh1{
-    border: 4px solid #339;
+
+.footer {
+    width: 98.8%;
+    height: 200px;
+    background: #001373;
+    color: white;
 }
-footer{
-    padding: 60px;
-    margin-bottom:0px;
+
+.footer img {
+    width: 100%;
+    height: 170px;
+    margin-top: 2.5%;
+    margin-left: 10%;
 }
+
+.footer .diachi {
+    margin-top: 2.5px;
+    margin-left: 5%;
+}
+
