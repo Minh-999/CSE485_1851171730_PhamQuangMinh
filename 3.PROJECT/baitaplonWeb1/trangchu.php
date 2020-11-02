@@ -135,37 +135,7 @@
 
         </div>
     </div>
-    <div class="footer" style="text-align:center;">
-        <div class="row">
-            <div class="link">
-                <div class="col-md-5">
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="link1">
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="link2">
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                    <li>abc</li>
-                </div>
-            </div>
-        </div>
-    </div>
+    
    <?php
     include("includes/footer.php");
    ?>
