@@ -13,12 +13,12 @@
   <body>
   <div class="LOGO">
         <div class="logo">
-            <a href="trangchu.php"><img src="http://cse.tlu.edu.vn/cse/assets/images/logo.jpg" alt=""></a>
+            <a href="trangchu.php"><img src="img/logo.jpg" alt=""></a>
             <!-- <img src="http://cse.tlu.edu.vn/cse/assets/images/logo.jpg" alt=""> -->
         </div>
         
     </div>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="trangchu.php"><i class="fas fa-home"></i>Trang chủ</a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -29,9 +29,7 @@
             <li class="nav-item active">
                 <a class="nav-link" href="#">Giới thiệu</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Nghiên cứu khoa học</a>
-            </li>
+            
             <li class="nav-item active">
                 <a class="nav-link" href="daotao.php">Đào tạo</a>
             </li>
@@ -54,11 +52,11 @@
                     <a class="dropdown-item" href="dangki.php">Đăng kí</a>
                 </div>
             </li>
-        </ul>
+        </ul>      
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" >
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        </form> 
     </div>
 </nav>
     <!-- Optional JavaScript -->
