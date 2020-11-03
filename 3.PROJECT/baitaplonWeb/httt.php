@@ -54,6 +54,7 @@ Cán bộ nghiên cứu ở các Viện, trung tâm, cơ quan nghiên cứu củ
 
 - Chú trọng tới kỹ năng thực tập, thực hành của sinh viên. Có hệ thống phòng học cơ sở vật chất và các phòng Lab khang trang hiện đại.</p>
   <h4>Chi tiết:</h4>
-  <img src="img/HTTT_1.png" alt="">
+  <div class="container"><img src="img/HTTT_1.png" alt=""></div>
+  
 </body>
 </html>

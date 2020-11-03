@@ -11,7 +11,7 @@ include("includes/header.php");
 <body>
         <div class="container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/RJ3MIAbSySQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+          </div>
     <h4>1. Mục tiêu đào tạo</h4>
 
 <p>Cung cấp các kiến thức chuyên sâu giúp phát triển, sử dụng và bảo trì phần mềm một cách có hệ thống, có kỷ luật. Giúp sinh viên ra trường có thể làm hòa nhập nhanh chóng với môi trường phát triển phần mềm chuyên nghiệp tại các công ty, tập đoàn phát triển phần mềm.</p>
@@ -54,6 +54,7 @@ include("includes/header.php");
 
 - Chú trọng tới kỹ năng thực tập, thực hành của sinh viên. Có hệ thống phòng học cơ sở vật chất và các phòng Lab khang trang hiện đại</p>
   <h4>Chi tiết:</h4>
-  <img src="img/KTPM.png" alt="">
+  <div class="container"> <img src="img/KTPM.png" alt="" ></div>
+ 
 </body>
 </html>

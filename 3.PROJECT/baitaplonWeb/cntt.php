@@ -52,6 +52,7 @@ Làm việc tại các công ty tư vấn về đề xuất giải pháp, xây d
 
 - Chú trọng tới kỹ năng thực tập, thực hành của sinh viên. Có hệ thống phòng học cơ sở vật chất và các phòng Lab khang trang hiện đại</p>
   <h4>Chi tiết:</h4>
-  <img src="img/CNTTChuan.png" alt="">
+  <div class="container"><img src="img/CNTTChuan.png" alt=""></div>
+  
 </body>
 </html>

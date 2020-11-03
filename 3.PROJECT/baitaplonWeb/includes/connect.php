@@ -1,11 +1,8 @@
 <?php
    
- $conn = mysqli_connect ("localhost","root","","qlacc");
+ $conn = mysqli_connect ("localhost","root","","baitaplonweb");
  if(!$conn){
    
-     echo "thất bại";
- }   else
- {
-     echo "ok";
- }
+     echo "khong the ket noi";
+ }   
 ?>

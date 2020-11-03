@@ -1,66 +1,74 @@
+<?php 
+require('includes/connect.php');
+if(isset($_POST["taikhoan"]))
+{
+    if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
+        die();
+    }  
+    $taikhoan =  strtolower(trim($_POST["taikhoan"]));
+    $taikhoan = filter_var($taikhoan, FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW|FILTER_FLAG_STRIP_HIGH);
+    $results = mysqli_query($conn,"SELECT taikhoan FROM thongtinsinhvien WHERE taikhoan='$taikhoan'");
+    $taikhoan_exist = mysqli_num_rows($results);
+    if($taikhoan_exist) {
+        echo("khong co san");
+    }else{
+        echo( "co san");
+    }
+    mysqli_close($conn);
+}
+?>
 <!doctype html>
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Đăng kí</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/dangki.css">
 </head>
 
 <body>
-
-
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <a class="navbar-brand" href="trangchu.php"> <i class="fas fa-home"></i> Trang chủ</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">X <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                        <a class="dropdown-item" href="#">Action 2</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+<div class="LOGO">
+        <div class="logo">
+            <a href="trangchu.php"><img src="http://cse.tlu.edu.vn/cse/assets/images/logo.jpg" alt=""></a>
         </div>
-    </nav>
+    </div>
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <a class="navbar-brand" href="trangchu.php"><i class="fas fa-home"></i>Trang chủ</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation"></button>
+</nav>
     <div class="container">
-        <div class="col-mdl-12">
+        <form action="xl_dangki.php" method="post">
             <div class="form-group">
                 <label for="">Tài khoản</label>
-                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                <input type="text" class="form-control" name="txt_taikhoan" id="txt_taikhoan" aria-describedby="helpId" placeholder="">
             </div>
             <div class="form-group">
                 <label for="">Mật khẩu</label>
-                <input type="password" class="form-control" name="" id="" placeholder="">
+                <input type="password" class="form-control" name="txt_password" id="txt_password" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="">Nhập lại mật khẩu</label>
+                <input type="password" class="form-control" name="txt_password1" id="txt_password1" placeholder="">
             </div>
             <div class="form-group">
                 <label for="">Email</label>
-                <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+                <input type="email" class="form-control" name="txt_email" id="txt_email" aria-describedby="emailHelpId" placeholder="">
+                <a href="dangnhap.php">Quay lại đăng nhập</a>
             </div>
-        </div>
+            <button type="submit" class="btn btn-primary dk">Đăng kí</button>
+        </form>
     </div>
-    <?php
-   include("includes/footer.php");
-   ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/dangki.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>

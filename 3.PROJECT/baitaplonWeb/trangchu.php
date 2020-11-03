@@ -15,10 +15,8 @@
 <body>
    <?php
    include("includes/header.php");
-   ?>
-  
-    </div>
-    <div class="container" >
+   ?>   
+    <div class="container">
     <div id="demo" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -26,10 +24,9 @@
             <li data-target="#demo" data-slide-to="2"></li>
             <li data-target="#demo" data-slide-to="3"></li>
             <li data-target="#demo" data-slide-to="4"></li>
-            <li data-target="#demo" data-slide-to="5"></li>
-            
+            <li data-target="#demo" data-slide-to="5"></li> 
         </ol>
-        <div class="carousel-inner" role="listbox" width="1050px">
+        <div class="carousel-inner" role="listbox" width="1050px" >
             <div class="carousel-item active">
                 <img src="img/slide/banner.jpg" alt="First slide" class="d-block w-100">
             </div>
@@ -56,55 +53,42 @@
         <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-        </a>
-    
-    </div>
-    <div class="page-wrapper">
-        <div class="post-silder">
-            <h1 class="slider-title">Trending</h1>
-            <div class="post-wrapper">
-                <div class="post">1</div>
-                <div class="post">2</div>
-                <div class="post">3</div>
-                <div class="post">4</div>
-                <div class="post">5</div>
-            </div>
-        </div>
-    </div>
-    <div class="thongtin" >
+        </a>   
+    </div> 
+    <div class="thongtin">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 b">
                 <div class="anh1">
                     <img src="img/quality.jpg" alt="" srcset="">
-                    <li>Đảm bảo chất lượng</li>
+                    <li>Chất lượng</li>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 b">
                 <div class="anh2">
                     <img src="img/www.jpg" alt="" srcset="">
                     <li>Tạp chí</li>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 b">
                 <div class="anh3">
                     <img src="img/library.jpg" alt="">
                     <li>Thư viện</li>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 b">
                 <div class="anh4">
                     <img src="img/email.jpg" alt="">
                     <li>TLU Mail</li>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 b">
                 <div class="anh5">
                     <img src="img/lichcongtac.jpg" alt="" srcset="">
                     <li>Lịch công tác</li>
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="anh6" >
+            <div class="col-md-2 b">
+                <div class="anh6">
                     <img src="img/user.jpg" alt="" srcset="">
                     <li>Đăng kí học</li>
                 </div>
