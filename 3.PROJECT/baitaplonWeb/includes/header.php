@@ -34,7 +34,7 @@
                 <a class="nav-link" href="daotao.php">Đào tạo</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Bộ môn-Trung tâm</a>
+                <a class="nav-link" href="tuyensinh.php">Tuyển sinh</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#">Sinh Viên</a>
