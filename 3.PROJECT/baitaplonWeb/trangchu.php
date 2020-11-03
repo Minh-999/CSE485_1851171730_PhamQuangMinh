@@ -17,7 +17,7 @@
    include("includes/header.php");
    ?>   
     <div class="container">
-    <div id="demo" class="carousel slide" data-ride="carousel">
+    <div id="demo" class="carousel slide" data-ride="carousel" style="padding:30px">
         <ol class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
