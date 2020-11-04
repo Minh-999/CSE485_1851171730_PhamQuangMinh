@@ -13,11 +13,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="css/diendan.css">
+    
 </head>
   <body>
   <div class="LOGO">
@@ -38,12 +39,12 @@
                 <a class="nav-link" href="#">Nghiên cứu khoa học</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Đào tạo</a>
+                <a class="nav-link" href="daotao.php">Đào tạo</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#">Bộ môn-Trung tâm</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item active dd">
                     <?php
                         if(!isset($_SESSION['user'])){
                         header("Location:diendan.php");
@@ -51,18 +52,78 @@
                     <?php
                         }else{
                     ?>
-       
+       <li class="dx">
                 <?php echo "Xin chào : ".$_SESSION['user']; ?>
-            <ul>
-                <li><a href="dangxuat.php">đăng xuất</a></li>
-            </ul>
-        </li>
+                <a href="dangxuat.php">/Đăng xuất</a></li>
+            </li>
                     <?php 
                         }
                     ?>
         </ul>
     </div>
 </nav>
+    <div class="main">
+        <div class="container">
+            <div class="row sk">
+                <h1>1. CSE Forum</h1>
+            </div>
+            <div class="sukien">
+            <ul>
+                <li><a href="sukien.php"><i class="far fa-comment"></i>Sự kiện CSE Forum</a></li>        
+                <li><a href=""><i class="far fa-comment"></i>Góp ý - Kiến nghị cho CSE Forum</a></li>
+                <li><a href=""><i class="far fa-comment"></i>Phòng truyền thống CSE</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row sk">
+                <h1>2. Đồng hành mùa thi</h1>
+            </div>
+            <div class="sukien">
+            <ul>
+                <li><a href=""><i class="far fa-comment"></i>Thông tin tuyển sinh</a></li>        
+                <li><a href=""><i class="far fa-comment"></i>Chia sẻ kinh nghiệm</a></li>
+                <li><a href=""><i class="far fa-comment"></i>Đồng hành mùa thu</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row sk">
+                <h1>3. Hành lang lớp học</h1>
+            </div>
+            <div class="sukien">
+            <ul>
+                <li><a href=""><i class="far fa-comment"></i>Ngoài giảng đường</a></li>        
+                <li><a href=""><i class="far fa-comment"></i>Trên giảng đường</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row sk">
+                <h1>4. Đào tạo - Hướng nghiệp</h1>
+            </div>
+            <div class="sukien">
+            <ul>
+                <li><a href=""><i class="far fa-comment"></i>Chia sẻ tài liệu bằng tiếng Việt</a></li>        
+                <li><a href=""><i class="far fa-comment"></i>Các chứng chỉ Quốc tế về CNTT,tiếng Anh</a></li>
+                <li><a href=""><i class="far fa-comment"></i>Chia sẻ tài liệu bằng tiếng Anh</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row sk">
+                <h1>5. Các thế thệ sinh viên</h1>
+            </div>
+            <div class="sukien">
+            <ul>
+                <li><a href=""><i class="far fa-comment"></i>K58</a></li>        
+                <li><a href=""><i class="far fa-comment"></i>K60</a></li>
+                <li><a href=""><i class="far fa-comment"></i>K59</a></li>
+                <li><a href=""><i class="far fa-comment"></i>K61</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
