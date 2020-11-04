@@ -45,7 +45,7 @@
           </thead>
           <tbody>
           <?php
-            require('includes/onnect.php');
+            require('includes/connect.php');
             include('functions.php');
             $user = $_SESSION['user'];
             $sql = "SELECT * FROM qlbaidang where nguoidang = '$user'";
