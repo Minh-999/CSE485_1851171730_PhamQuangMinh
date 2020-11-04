@@ -33,7 +33,7 @@
     </div>
     <div class="noidungbl">
         <?php
-            require('connect.php');
+            require('includes/connect.php');
             include('functions.php');
             $user = $_GET['id'];
             $sql ="SELECT * from qlbinhluan where id_baidang = '$user'";
