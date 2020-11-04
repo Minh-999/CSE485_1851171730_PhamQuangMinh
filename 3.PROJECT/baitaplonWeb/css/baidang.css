@@ -1,0 +1,36 @@
+.LOGO {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    background: rgb(235, 225, 225);
+    border: 1px solid rgb(235, 225, 225);
+}
+
+.baidang {
+    color: black;
+    width: 25%;
+    margin-top: 0px;
+}
+
+.container {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.container .db {
+    width: 100%;
+}
+
+.container .nd {
+    border-radius: 5px;
+}
+10:54 PM 11/4/2020
+
+10:57 PM 11/4/2020
+
+10:57 PM 11/4/2020
