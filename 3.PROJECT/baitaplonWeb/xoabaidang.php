@@ -1,6 +1,6 @@
 <?php
 $delete = $_GET['id'];
-require('connect.php');
+require('includes/connect.php');
 include('functions.php');
 if(deleteid($delete))
 {
