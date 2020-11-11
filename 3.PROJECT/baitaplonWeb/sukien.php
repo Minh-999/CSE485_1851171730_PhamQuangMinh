@@ -69,7 +69,7 @@
         <ul>
             <li><a href="baiviet.php?id=<?php echo $row[0];?>"><?php echo $row[2];?></a></li>
             <li><i class="fas fa-user"></i><?php echo $row[1];?></li>
-            <li><?php echo $row[3];?></li>
+            <li><i class="fas fa-comment-dots"></i><?php echo $row[3];?></li>
             <li><i class="far fa-clock"><?php echo $row[4];?></li>
         </ul>
         <?php
