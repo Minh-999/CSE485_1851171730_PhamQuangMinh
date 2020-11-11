@@ -1,0 +1,34 @@
+.LOGO {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.dd {
+    color: white;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.dx {
+    color: white;
+    padding-top: 8px;
+}
+
+.dx a {
+    color: white;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+.baidang {
+    margin-top: 5px;
+    width: 80%;
+    margin-left: 30px;
+}
+
+.baidang ul {
+    border-bottom: 2px dashed brown;
+}
