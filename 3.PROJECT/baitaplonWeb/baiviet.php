@@ -42,9 +42,9 @@
             {
         ?>
         <ul>
-            <li><?php echo $row['nguoidang'];?></li>
-            <li><?php echo $row['noidung_binhluan'];?></li>
-            <li><?php echo $row['date'];?></li>
+            <li><i class="fas fa-user"></i><?php echo $row['nguoidang'];?></li>
+            <li><i class="fas fa-comment-dots"></i><?php echo $row['noidung_binhluan'];?></li>
+            <li><i class="far fa-clock"></i><?php echo $row['date'];?></li>
         </ul>
         <?php
             }
