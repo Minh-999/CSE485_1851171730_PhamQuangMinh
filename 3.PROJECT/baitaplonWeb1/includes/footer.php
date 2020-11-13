@@ -18,7 +18,7 @@
         <div class="col-md-1"></div>  
                 <div class="col-md-3">
                   <ul>
-                        <li>Giới thiệu</li>
+                        <li> <a href="gioithieu.php">Giới thiệu</a></li>
                         <li>Logo khoa</li>
                         <li>lời chào mừng</li>
                         <li>Tổ chức</li>  
