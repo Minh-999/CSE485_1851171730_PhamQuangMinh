@@ -1,15 +1,16 @@
-<?php
-include("includes/header.php");
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CNTT</title>
 </head>
 <body>
-        <div class="container">
+    <?php
+    include("includes/header.php");
+    ?>
+       <div class="container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/pv3DAYZzLGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     <h4>1. Mục tiêu đào tạo</h4>

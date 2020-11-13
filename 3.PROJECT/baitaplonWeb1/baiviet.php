@@ -32,6 +32,7 @@
             <h><a href="sukien.php"><i class="fas fa-home"></i>Bài viết gần đây</a></h>
         </div>
     </div>
+    <h4> Bình luận</h4>
     <div class="noidungbl">
         <?php
             require('includes/connect.php');

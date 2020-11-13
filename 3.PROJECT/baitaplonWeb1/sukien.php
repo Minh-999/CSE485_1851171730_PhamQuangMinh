@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/sukien.css">
 </head>
   <body>
+  
   <div class="LOGO">
         <div class="logo">
             <a href="trangchu.php"><img src="img/logo.jpg" alt=""></a>
@@ -59,6 +60,7 @@
     </div>
 </nav>
     <div class = "baidang">
+    <h4>Bài đăng</h4>
         <?php
             require('includes/connect.php');
             include('functions.php');
