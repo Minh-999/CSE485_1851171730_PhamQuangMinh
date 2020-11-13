@@ -57,6 +57,9 @@ Xét tuyển dựa trên 3 phương thức:
 <h5>Thông tin chi tiết click vào ảnh sau:</h5>
 <a href="http://ts.tlu.edu.vn/Portals/4/P3/Tuyen%20sinh/2020/1_CS%20Ha%20Noi.pdf?ver=2020-07-02-160807-193">  <img src="img/HN.jpg" alt="" width="400px"></a>
       </div>
+      <?php
+      include("includes/footer.php");
+      ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

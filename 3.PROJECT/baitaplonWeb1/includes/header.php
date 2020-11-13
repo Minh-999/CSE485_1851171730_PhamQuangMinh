@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Giới thiệu</a>
+                <a class="nav-link" href="gioithieu.php">Giới thiệu</a>
             </li>
             
             <li class="nav-item active">

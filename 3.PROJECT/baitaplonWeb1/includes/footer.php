@@ -8,12 +8,41 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="css/footer.css">
   </head>
   <body>
       
-  <div class="footer">
+  <div class="footer" >
+  
         <div class="row">
+        <div class="col-md-1"></div>  
+                <div class="col-md-3">
+                  <ul>
+                        <li>Giới thiệu</li>
+                        <li>Logo khoa</li>
+                        <li>lời chào mừng</li>
+                        <li>Tổ chức</li>  
+                   </ul>     
+                </div> 
+                <div class="col-md-3">
+                  <ul>
+                  <li> <a href="daotao.php">Đào tạo</a></li>
+                        <li> <a href="daotao.php">Đào tạo đại học</a></li>
+                        <li>Đào tạo sau đại học</li>
+                        <li>Định hướng ngành nghề</li>   
+                  </ul>
+                </div>   
+                <div class="col-md-3">
+                   <ul>
+                        <li>Công nghện phần mềm</li>
+                        <li>Khoa học máy tính</li>
+                        <li>Hệ thống thông tin</li>
+                        <li>Kĩ thuật máy tính và mạng</li>
+                        <li>Toán học</li>   
+                    </ul>  
+                </div>                  
+        </div>
+        <div class="row" margin-bottom="0px">
                 <div class="anhdiachi">
                     <img src="img/map.png" alt="" srcset="">
                 </div>
@@ -21,10 +50,13 @@
                     <li>TRƯỜNG ĐẠI HỌC THỦY LỢI</li>
                     <li>Địa chỉ: 175 Tây Sơn, Đống Đa, Hà Nội</li>
                     <li>Điện thoại: (024) 38522201 - Fax: (024) 35633351</li>
-                    <li>Email: phonghcth@tlu.edu.vn</li>
+                    <li>Email: phonghcth@tlu.edu.vn</li>     
                 </div>
                 
         </div>
+        
+        
+        
     </div>
       
     <!-- Optional JavaScript -->
